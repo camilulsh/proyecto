@@ -1,0 +1,39 @@
+body{
+    background-color: #07080C;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    background-color: #7C5931;
+    font-size: larger;
+    text-align: center;
+}
+
+h1{
+    border: 10px solid #07080C;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #8D1602;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-style: oblique;
+}
+
+div{
+    text-align: center;
+}
+
+ol{
+    padding: 45px;
+    background-color: #2A2011;
+    display: inline-block;
+    text-align: center;
+    border-radius: 30px;
+}
+
+button{
+    background-color: #94AD9B;
+    border-radius: 10px;
+}
