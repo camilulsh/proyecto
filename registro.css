@@ -1,0 +1,51 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 110%;
+    background-color: #07080C;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 180%;
+    color: #7C5931;
+}
+
+form {
+    margin: 40px;
+    padding: 30px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+span {
+    text-align: center;
+}
+
+.fondoAqua {
+    background-color: #94AD9B;
+    text-align: center;
+    color: #07080C;
+}
+
+.boton {
+    background-color: #94AD9B;
+    color: #07080C;
+}
+
+.albumes{
+    display: flex;
+    justify-content: end;
+    align-content: space-around;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
