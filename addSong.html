@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir canción</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="tail.css">
+</head>
+
+<body class="flex flex-row-reverse justify-between">
+
+    <div class="grow text-center text-2xl text-white flex items-center justify-center" id="fondo">
+        <br>
+        <form action="">
+            <h2 class="text-3xl font-bold underline text-center">Añadir cancion </h2>
+            <br>
+            <label for="Título">Título</label>
+            <br>
+            <textarea name="titulo" id="Título" class="text-center border-2 border-black bg-black" rows="2" cols="80"></textarea>
+            <br>
+            <label for="Duracion">Duración</label>
+            <br>
+            <textarea name="duracion" id="Duracion" class="text-center border-2 border-black bg-black" rows="2"
+                cols="80"></textarea>
+            <br>
+            <label for="link">Link</label>
+            <br>
+            <textarea name="link" id="link" class="text-center border-2 border-black bg-black" rows="2" cols="80"></textarea>
+            <br>
+
+            <br>
+            <button type="button"
+                class="w-40 text-white bg-black border border-solid border-black rounded full">Guardar</button>
+            <button type="button" class="w-40 text-white bg-black border border-solid border-black rounded full"><a
+                    href="index.html">Cancelar</a></button>
+        </form>
+    </div>
+    <div class="flex 
+    flex-col 
+    text-2xl 
+    bg-[#0A0F0C] 
+    text-white 
+    m-0 
+    h-dvh 
+    w-1/5 
+    text-center
+    pt-4
+    ">
+        <img src="abeltsf.png" alt="jpg" class="w-24 py-0 m-2"> <div id="user" class="text-2xl">Camilulsh</div>
+        <br>
+        <div class="py-4 m-3"><a href="index.html">Other albums</a></div>
+        <div class="py-4 m-3"><a href="index.html">Edit album</a></div>
+        <div class="py-4 m-3"><a href="index.html">Add Songs</a></div>
+        <div class="py-4 m-3"><a href="index.html">Log out</a></div>
+    </div>
+</body>
+
+</html>

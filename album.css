@@ -5,6 +5,12 @@
     text-align: center;
 }
 
+body {
+    margin: 0%;
+    padding: 0%;
+    height: 100dvh;
+  }
+
 .container {
     display: flex;
     flex-direction: row;
@@ -19,6 +25,7 @@
 
 .menu {
     justify-content: center;
+    padding-top: 10px;
     width: 20%;
     background-color: #0A0F0C;
 }
@@ -31,8 +38,7 @@
 }
 
 .divisor{
-    border: 1px solid #8D1602;
-    height: 90px;
+    height: 80px;
 }
 
 #fondo{
@@ -47,4 +53,26 @@
 #submit{
     background-color: #8D1602;
     color: white;
+}
+
+#afterhours{
+    display: flex;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    width: 20%;
+}
+
+#starboy{
+    display: flex;
+    position: relative;
+    left: 30%;
+    bottom: 90%;
+    width: 20%;
+}
+
+#user{
+    position: relative;
+    bottom: 30px;
+    left: 20px;
 }
