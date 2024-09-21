@@ -26,15 +26,26 @@
 #fechas{
     position: relative;
     top: 100px;
-    left: 220px;
+    left: 60px;
 }
 
 #titulo{
     position: relative;
     top: 50px;
+    left: 35%;
 }
 
 #thew{
     position: relative;
     left: 50px;
+}
+
+#registrar{
+    position: relative;
+    top: 330px;
+    right: 320px;
+}
+
+#fondoDos{
+    background-image: url(cromo.png);
 }
